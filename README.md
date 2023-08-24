@@ -1,4 +1,7 @@
 # Task Decomposition in Non-Static Deep Reinforcement Learning Robotic Environments
+https://github.com/nikolaos1997/Neural-Robotics/assets/103045738/c10e17d5-30ab-4bc4-aa72-9f8ae59974d1
+
+
 
 # Abstract
 Deep Reinforcement Learning in robotic applications has shown promising outcomes in goal-based tasks over classical control methods. Yet, conventional intelligent robotic set-ups often overlook real-world scenarios in simulated environments, limiting deployment and applicability. Our research aimed to address this by designing and solving an object manipulation robotic task with moving components, utilizing biologically-inspired concepts as temporal integration of sub-decision, and attention mechanisms. 
@@ -8,3 +11,5 @@ Based on the 'Fetch' robot hand from OpenAI gym, our designed task was to pick u
 Incorporating self-attention demonstrated significantly high success rates across all sub-tasks during training phase, while task decomposition was crucial for the successful completion of the end-end task. When utilizing only linear layers in our neural networks yielded much lower success rates in each sub-task, showcasing the capabilities of self-attention module in real world scenarios with moving objects. The adaptability of the self-attention module was further proved when exposed to varying platform speeds, different from the speed that was used during the training phases, maintaining high performance. However, self-attention module was found to be prune to input state sequence feature perturbations, due to the inner complicated calculations.
 
 Our study investigates the application of biologically-inspired mechanisms in dynamic robotic environments, bridging the gap between simulation and real world challenges. The insights obtained serve as foundational knowledge for real world robotic applications, paving also at promising future research directions in continual and meta-learning.
+
+# Results

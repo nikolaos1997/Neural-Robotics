@@ -13,4 +13,6 @@ Incorporating self-attention demonstrated significantly high success rates acros
 
 Our study investigates the application of biologically-inspired mechanisms in dynamic robotic environments, bridging the gap between simulation and real world challenges. The insights obtained serve as foundational knowledge for real world robotic applications, paving also at promising future research directions in continual and meta-learning.
 
-# Results
+# Robotic Environment
+
+In this project we investigate the training of a robot agent in our designed goal-orientated task. We employed the mechanics of 'Fetch' robotic hand from OpenAI gym as our agent to train inside the Mujoco (Multi-joint dynamic with contact) physics simulator. Along with the robot hand, two squared platforms are placed in front of the robot, moving in a circular route with a constant velocity. The designed end-end task for the robot agent is to pick the box from the green platform (at the right side of the table) and place it on the red one (at the left side of the table), while both are moving, without any further interactions. This task is closely related to real world scenarios with increased complexity, compare to conventional 'pick and place' tasks with static objects. Hence, the process of training and testing of our agent was treated as POMDP, where the velocities and orientations of the platforms and cube were not provided as state information.

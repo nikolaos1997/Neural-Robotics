@@ -1,5 +1,6 @@
 # Task Decomposition in Non-Static Deep Reinforcement Learning Robotic Environments
-https://github.com/nikolaos1997/Neural-Robotics/assets/103045738/c10e17d5-30ab-4bc4-aa72-9f8ae59974d1
+
+![Complete_task](https://github.com/nikolaos1997/Neural-Robotics/assets/103045738/a8a9a811-f829-4d4f-9dba-76d84e35d8b8)
 
 
 

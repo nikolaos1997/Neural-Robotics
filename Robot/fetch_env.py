@@ -181,14 +181,14 @@ class FetchEnv(robot_env.RobotEnv):
         fingers_vel = robot_qvel[-2:] * dt 
 
         
-        obs = np.concatenate([grip_pos.ravel(), grip_rot.ravel(), grip_velp, #0
-                              fingers_state, fingers_vel, # 10
+        obs = np.concatenate([grip_pos.ravel(), 
+                              fingers_state, 
                               shoulder_pos.ravel(), #20
                               upperarm_pos.ravel(), #30
                               elbow_pos.ravel(), #40
-                              tray_pos.ravel(), tray_rot.ravel(), # 50
-                              object_pos.ravel(), object_rel_pos.ravel(), object_rot.ravel(), #60
-                              goal_pos.ravel(), goal_rot.ravel(),]) # 70
+                              tray_pos.ravel(), tray_rot.ravel(), 
+                              object_pos.ravel(), object_rel_pos.ravel(), 
+                              goal_pos.ravel(),]) # 70
 
         return obs.copy()
             
